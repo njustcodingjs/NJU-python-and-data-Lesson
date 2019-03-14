@@ -17,3 +17,11 @@ else:
 
 短路模式
 
+range(start,end)
+range(end)
+
+
+Wish you good luck!!!!!!
+
+while expression:
+	expr
