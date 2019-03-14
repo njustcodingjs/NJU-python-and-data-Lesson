@@ -17,7 +17,6 @@ else:
 
 短路模式
 
-range(start,end,step)
 range(start,end)
 range(end)
 
