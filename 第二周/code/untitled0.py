@@ -4,12 +4,12 @@ Created on Sat Mar 16 03:00:31 2019
 
 @author: js
 """
-def proc(n):
-    if n < 0:
-        print('-', end = '')
-        n = -n
-    if n // 10:
-        proc(n // 10 )
-    print(n % 10, end = '')
-     
-proc(-345)
+import time
+a = []
+t0 = time.clock()
+for i in range(1,20000000):
+    a.append(i)
+print(time.clock() - t0, "seconds process time")
+t0 = time.clock()
+b = [i for i in range(1,20000000)]
+print(time.clock() - t0, "seconds process time")
